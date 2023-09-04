@@ -5,7 +5,7 @@ const Home = () => {
     <>
       <Container fluid style={{ padding: "0 15%" }}>
         <Row>
-          <Col className="mt-5 d-flex align-items-center justify-content-evenly">
+          <Col className="d-flex align-items-center justify-content-evenly align-items-center">
             <div>
               <img
                 src={require("../assets/images/varazze4.jpeg")}
@@ -14,22 +14,27 @@ const Home = () => {
               />
             </div>
             <div className="d-flex flex-column">
-              <h1 className="mt-5">HELLO! I'M ANTONIO VALLERGA!</h1>
-              <div style={{width:"35vw"}}></div>
+              <h1 className="nameTitle">HELLO! I'M ANTONIO VALLERGA!</h1>
+              <div style={{ width: "35vw" }}></div>
               <div class="wrapper">
                 <svg>
                   <text x="50%" y="20%" dy=".35em" text-anchor="middle">
-                  JUNIOR FULL-STACK DEVELOPER
+                    JUNIOR FULL-STACK DEVELOPER
                   </text>
                 </svg>
               </div>
             </div>
           </Col>
         </Row>
-        <Row className="d-flex my-5">
-          <Col>
-            <h1>ABOUT</h1>
-            <p>
+        <Row>
+          <Col className="d-flex justify-content-around">
+            <h1 className="text-center">ABOUT</h1>
+            <h1 className="text-center">SKILL</h1>
+          </Col>
+        </Row>
+        <Row className="d-flex">
+          <Col className="d-flex flex-column align-items-center">
+            <p className="text-center w-75">
               I am Junior Web Developer who has been studying Computer Science
               for over a year. With more than 10 years of experience in
               customer-service and working in teams. I am eager to apply my
@@ -38,117 +43,114 @@ const Home = () => {
             </p>
           </Col>
           <Col>
-            <h1 className="text-center">SKILL</h1>
-            <div>
-              <div className="d-flex justify-content-center mb-3">
-                <div className="skillSpace d-flex flex-column align-items-center">
-                  <p className="skillText">HTML5</p>
-                  <img
-                    className="skillIcon"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                    alt="HTML5"
-                  />
-                </div>
-                <div className="skillSpace d-flex flex-column align-items-center">
-                  <p className="skillText">CSS3</p>
-                  <img
-                    className="skillIcon"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-                    alt="CSS3"
-                  />
-                </div>
-                <div className="skillSpace d-flex flex-column align-items-center">
-                  <p className="skillText">JavaScript</p>
-                  <img
-                    className="skillIcon"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                    alt="JavaScript"
-                  />
-                </div>
-                <div className="skillSpace d-flex flex-column align-items-center">
-                  <p className="skillText">Bootstrap</p>
-                  <img
-                    className="skillIcon"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-                    alt="Bootstrap"
-                  />
-                </div>
-                <div className="skillSpace d-flex flex-column align-items-center">
-                  <p className="skillText">VSCode</p>
-                  <img
-                    className="skillIcon"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-                    alt="VSCode"
-                  />
-                </div>
+            <div className="d-flex justify-content-center mb-3">
+              <div className="skillSpace d-flex flex-column align-items-center">
+                <p className="skillText">HTML5</p>
+                <img
+                  className="skillIcon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                  alt="HTML5"
+                />
               </div>
-              <div className="d-flex  justify-content-center mb-3">
-                <div className="skillSpace d-flex flex-column align-items-center">
-                  <p className="skillText">TypeScript</p>
-                  <img
-                    className="skillIcon"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
-                    alt="TypeScript"
-                  />
-                </div>
-                <div className="skillSpace d-flex flex-column align-items-center">
-                  <p className="skillText">React</p>
-                  <img
-                    className="skillIcon"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                    alt="React"
-                  />
-                </div>
-                <div className="skillSpace d-flex flex-column align-items-center">
-                  <p className="skillText">NPM</p>
-                  <img
-                    className="skillIcon"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
-                    alt="NPM"
-                  />
-                </div>
-                <div className="skillSpace d-flex flex-column align-items-center">
-                  <p className="skillText">Java</p>
-                  <img
-                    className="skillIcon"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-                    alt="Java"
-                  />
-                </div>
-                <div className="skillSpace d-flex flex-column align-items-center">
-                  <p className="skillText">Spring</p>
-                  <img
-                    className="skillIcon"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
-                    alt="Spring"
-                  />
-                </div>
+              <div className="skillSpace d-flex flex-column align-items-center">
+                <p className="skillText">CSS3</p>
+                <img
+                  className="skillIcon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                  alt="CSS3"
+                />
               </div>
-              <div className="d-flex  justify-content-center">                
-                <div className="skillSpace d-flex flex-column align-items-center">
-                  <p className="skillText">PostgreSQL</p>
-                  <img
-                    className="skillIcon"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"
-                    alt="PostgreSQL"
-                  />
-                </div>
-                <div className="skillSpace d-flex flex-column align-items-center">
-                  <p className="skillText">PostMan</p>
-                  <img
-                    className="skillIcon"
-                    src="https://www.svgrepo.com/show/354202/postman-icon.svg"
-                    alt="PostMan"
-                  />
-                </div>
-                <div className="skillSpace d-flex flex-column align-items-center">
-                  <p className="skillText">Trello</p>
-                  <img
-                    className="skillIcon"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg"
-                    alt="Trello"
-                  />
-                </div>
+              <div className="skillSpace d-flex flex-column align-items-center">
+                <p className="skillText">JavaScript</p>
+                <img
+                  className="skillIcon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="JavaScript"
+                />
+              </div>
+              <div className="skillSpace d-flex flex-column align-items-center">
+                <p className="skillText">Bootstrap</p>
+                <img
+                  className="skillIcon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                  alt="Bootstrap"
+                />
+              </div>
+              <div className="skillSpace d-flex flex-column align-items-center">
+                <p className="skillText">VSCode</p>
+                <img
+                  className="skillIcon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                  alt="VSCode"
+                />
+              </div>
+            </div>
+            <div className="d-flex  justify-content-center mb-3">
+              <div className="skillSpace d-flex flex-column align-items-center">
+                <p className="skillText">TypeScript</p>
+                <img
+                  className="skillIcon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
+                  alt="TypeScript"
+                />
+              </div>
+              <div className="skillSpace d-flex flex-column align-items-center">
+                <p className="skillText">React</p>
+                <img
+                  className="skillIcon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                  alt="React"
+                />
+              </div>
+              <div className="skillSpace d-flex flex-column align-items-center">
+                <p className="skillText">NPM</p>
+                <img
+                  className="skillIcon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+                  alt="NPM"
+                />
+              </div>
+              <div className="skillSpace d-flex flex-column align-items-center">
+                <p className="skillText">Java</p>
+                <img
+                  className="skillIcon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                  alt="Java"
+                />
+              </div>
+              <div className="skillSpace d-flex flex-column align-items-center">
+                <p className="skillText">Spring</p>
+                <img
+                  className="skillIcon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+                  alt="Spring"
+                />
+              </div>
+            </div>
+            <div className="d-flex  justify-content-center">
+              <div className="skillSpace d-flex flex-column align-items-center">
+                <p className="skillText">PostgreSQL</p>
+                <img
+                  className="skillIcon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"
+                  alt="PostgreSQL"
+                />
+              </div>
+              <div className="skillSpace d-flex flex-column align-items-center">
+                <p className="skillText">PostMan</p>
+                <img
+                  className="skillIcon"
+                  src="https://www.svgrepo.com/show/354202/postman-icon.svg"
+                  alt="PostMan"
+                />
+              </div>
+              <div className="skillSpace d-flex flex-column align-items-center">
+                <p className="skillText">Trello</p>
+                <img
+                  className="skillIcon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg"
+                  alt="Trello"
+                />
               </div>
             </div>
           </Col>
