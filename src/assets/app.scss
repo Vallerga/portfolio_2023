@@ -1,3 +1,12 @@
+// color setting
+@import "colors";
+
+// font setting
+@import "fontSetting";
+
+// animation
+@import "animation";
+
 body {
   padding: 0;
   margin: 0;
@@ -11,7 +20,19 @@ body {
   border-radius: 50%;
 }
 
-.skillIcon{
-    width: 50px;
-    
+.skillSpace{
+    width: 100px;
 }
+
+.skillText{
+    font-weight: 800;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 5px;
+}
+
+.skillIcon{
+    width: 50px;    
+}
+
