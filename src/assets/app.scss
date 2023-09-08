@@ -7,14 +7,18 @@
 // animation
 @import "animation";
 
+//button
+@import "button";
+
 body {
   padding: 0;
   margin: 0;
-  background-color: $limeGreen;
+  background: $BGColor1;
+  color: $BGColor2;
 }
 
-.nameTitle{
-    margin-top:100px;
+.nameTitle {
+  margin-top: 100px;
 }
 
 .myImage {
@@ -23,21 +27,76 @@ body {
   object-fit: cover;
   object-position: top;
   border-radius: 50%;
+  box-shadow: 0px 0px 5px 5px black;
 }
 
-.skillSpace{
-    width: 100px;
+.skillSpace {
+  width: 100px;
 }
 
-.skillText{
-    font-weight: 800;
-    font-size: 0.8rem;
-    text-align: center;
-    padding: 0;
-    margin: 0 0 5px;
+.skillSpace:hover {
+  scale: 1.2;
 }
 
-.skillIcon{
-    width: 50px;    
+.skillText {
+  font-weight: 800;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0;
+  margin: 0 0 5px;
 }
 
+.skillText:hover {
+  color: $BGColor3;
+}
+
+.skillIcon {
+  width: 50px;
+}
+.projectImg {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.navIcon {
+  font-size: 40px;
+}
+
+.footIcon {
+  font-size: 40px;
+  background: black;
+  border-top: $BGColor3 solid 2px;
+}
+
+.color2:hover {
+  scale: 1.1;
+}
+
+.boxStyle:hover {
+  scale: 1.1;
+}
+
+.github {
+  font-size: 50px;
+}
+
+.formInput {
+  width: 600px;
+  font-size: 18px;
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  background-color: $BGColor1dark;
+  outline: none;
+  color: $BGColor2;
+  border: 2px solid $BGColor2;
+}
+
+.formInput:hover{
+  scale: 1.02;
+}
+
+.formInput::placeholder {
+  opacity: 0.5;
+  color: $BGColor3;
+}

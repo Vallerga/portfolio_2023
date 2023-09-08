@@ -1,17 +1,19 @@
-const initialState = {
-    example: true
-  };
+import { THEME_SET } from "../action";
 
-  const mainReducer = (state = initialState, action) => {
-    switch (action.type) {
-      case "EXAMPLE":
-        return {
-          ...state,
-          example: action.payload
-        };
-      default:
-        return state;
-    }
-  };
-  
-  export default mainReducer;
+const initialState = {
+  theme: true,
+};
+
+const mainReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case THEME_SET:
+      return {
+        ...state,
+        theme: action.payload,
+      };
+    default:
+      return state;
+  }
+};
+
+export default mainReducer;
