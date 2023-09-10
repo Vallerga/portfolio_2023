@@ -1,4 +1,4 @@
-Per accedere al Portafoglio potete liberamente consultare: [Portafoglio Vallerga Antonio](https://github.com/Vallerga/Capstone_Project)
+Per accedere al Portafoglio potete liberamente consultare: [Portafoglio Vallerga Antonio](https://portfolio-vallerga.vercel.app/)
 # SINOSSI PORTAFOGLIO - **VALLERGA ANTONIO**
 Sono entusiasta di presentarvi la prima versione del mio Portafoglio di progetti digitali. Oltre a permettermi di mostrare i miei progetti passati presenti e futuri, mi permetterà di sviluppare e testare nuove soluzioni e tecnologie.
 
@@ -19,4 +19,4 @@ Potete contattarmi mediante LinkedIn, Mail oppure lasciandomi un messaggio diret
 - React Redux
 - React Router Dom
 
-Per accedere al Portafoglio potete liberamente consultare: [Portafoglio Vallerga Antonio](https://github.com/Vallerga/Capstone_Project)
+Per accedere al Portafoglio potete liberamente consultare: [Portafoglio Vallerga Antonio](https://portfolio-vallerga.vercel.app/)
