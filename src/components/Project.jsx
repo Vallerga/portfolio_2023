@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Project = () => {
     return(
-<Row className="d-flex my-5">
+<Row className="d-flex mt-5 pb-5">
           <h1 className="text-center mb-4">PROJECT</h1>
           <Col className="d-flex flex-column justify-content-center boxStyle">
             <h2>Prestito Illuminato</h2>

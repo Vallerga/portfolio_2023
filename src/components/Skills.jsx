@@ -1,6 +1,16 @@
 import { Col, Row } from "react-bootstrap";
+import { useSelector } from "react-redux";
 
 const Skills = () => {
+  const theme = useSelector((state) => state.mainReducer.theme);
+  let cssSkill = "skillSpace skillText d-flex flex-column align-items-center"
+  
+  if(theme === true) {
+    cssSkill = "skillSpace skillText d-flex flex-column align-items-center";
+  }else if (theme === false) {
+    cssSkill = "skillSpace skillText2 d-flex flex-column align-items-center"
+  }
+  
     return(
         <Row className="d-flex">
           <Col className="d-flex flex-column align-items-center">
@@ -15,7 +25,7 @@ const Skills = () => {
           </Col>
           <Col>
             <div className="d-flex justify-content-center mb-3">
-              <div className="skillSpace skillText d-flex flex-column align-items-center">
+              <div className={cssSkill}>
                 <p>HTML5</p>
                 <img
                   className="skillIcon"
@@ -23,7 +33,7 @@ const Skills = () => {
                   alt="HTML5"
                 />
               </div>
-              <div className="skillSpace skillText d-flex flex-column align-items-center">
+              <div className={cssSkill}>
                 <p>CSS3</p>
                 <img
                   className="skillIcon"
@@ -31,7 +41,7 @@ const Skills = () => {
                   alt="CSS3"
                 />
               </div>
-              <div className="skillSpace skillText d-flex flex-column align-items-center">
+              <div className={cssSkill}>
                 <p>JavaScript</p>
                 <img
                   className="skillIcon"
@@ -39,7 +49,7 @@ const Skills = () => {
                   alt="JavaScript"
                 />
               </div>
-              <div className="skillSpace skillText d-flex flex-column align-items-center">
+              <div className={cssSkill}>
                 <p>Bootstrap</p>
                 <img
                   className="skillIcon"
@@ -47,7 +57,7 @@ const Skills = () => {
                   alt="Bootstrap"
                 />
               </div>
-              <div className="skillSpace skillText d-flex flex-column align-items-center">
+              <div className={cssSkill}>
                 <p>VSCode</p>
                 <img
                   className="skillIcon"
@@ -57,7 +67,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="d-flex  justify-content-center mb-3">
-              <div className="skillSpace skillText d-flex flex-column align-items-center">
+              <div className={cssSkill}>
                 <p>TypeScript</p>
                 <img
                   className="skillIcon"
@@ -65,7 +75,7 @@ const Skills = () => {
                   alt="TypeScript"
                 />
               </div>
-              <div className="skillSpace skillText d-flex flex-column align-items-center">
+              <div className={cssSkill}>
                 <p>React</p>
                 <img
                   className="skillIcon"
@@ -73,7 +83,7 @@ const Skills = () => {
                   alt="React"
                 />
               </div>
-              <div className="skillSpace skillText d-flex flex-column align-items-center">
+              <div className={cssSkill}>
                 <p>NPM</p>
                 <img
                   className="skillIcon"
@@ -81,7 +91,7 @@ const Skills = () => {
                   alt="NPM"
                 />
               </div>
-              <div className="skillSpace skillText d-flex flex-column align-items-center">
+              <div className={cssSkill}>
                 <p>Java</p>
                 <img
                   className="skillIcon"
@@ -89,7 +99,7 @@ const Skills = () => {
                   alt="Java"
                 />
               </div>
-              <div className="skillSpace skillText d-flex flex-column align-items-center">
+              <div className={cssSkill}>
                 <p>Spring</p>
                 <img
                   className="skillIcon"
@@ -99,7 +109,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="d-flex  justify-content-center">
-              <div className="skillSpace skillText d-flex flex-column align-items-center">
+              <div className={cssSkill}>
                 <p>PostgreSQL</p>
                 <img
                   className="skillIcon"
@@ -107,7 +117,7 @@ const Skills = () => {
                   alt="PostgreSQL"
                 />
               </div>
-              <div className="skillSpace skillText d-flex flex-column align-items-center">
+              <div className={cssSkill}>
                 <p>PostMan</p>
                 <img
                   className="skillIcon"
@@ -115,7 +125,7 @@ const Skills = () => {
                   alt="PostMan"
                 />
               </div>
-              <div className="skillSpace skillText d-flex flex-column align-items-center">
+              <div className={cssSkill}>
                 <p>Trello</p>
                 <img
                   className="skillIcon"

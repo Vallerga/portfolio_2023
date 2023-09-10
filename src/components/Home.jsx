@@ -2,11 +2,21 @@ import { Col, Container, Row } from "react-bootstrap";
 import Project from "./Project";
 import Skills from "./Skills";
 import Contact from "./Contact";
+import { useSelector } from "react-redux";
 
 const Home = () => {
+  const theme = useSelector((state) => state.mainReducer.theme);
+  let cssHome = ""
+  
+  if(theme === true) {
+    cssHome = "";
+  }else if (theme === false) {
+    cssHome = "lightTheme"
+  }
+  
   return (
     <>
-      <Container fluid style={{ padding: "0 15%" }}>
+      <Container fluid className={cssHome} style={{ padding: "0 15%" }}>
         <Row>
           <Col className="d-flex align-items-center justify-content-evenly">
             <div>
