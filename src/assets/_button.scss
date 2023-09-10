@@ -44,6 +44,18 @@
   border: 2px solid $LGColor2dark;
 }
 
+@media screen and (max-width: 600px) {
+  .CVButtonDark {
+    padding: 5px 5px !important;
+    margin: 40px 35px;
+  }
+
+  .CVButtonLight {
+    padding: 5px 5px !important;
+    margin: 40px 35px;
+  }
+}
+
 .ContactButton {
   border-radius: 15px !important;
   font-size: 1.4rem;

@@ -1,0 +1,23 @@
+.footBar {
+    font-size: 40px;
+    background: black;
+    border-top: $BGColor3 solid 2px;
+  }
+  
+  .footBar2 {
+    font-size: 40px;
+    background: #000000;
+    border-top: $redDanger solid 2px;
+  }
+  
+  .footIcon {
+    color: $BGColor3;
+  }
+  
+  .footIcon2 {
+    color: $redDanger;
+  }
+  
+  .footIcon2:hover {
+    color: $lightRedDanger;
+  }

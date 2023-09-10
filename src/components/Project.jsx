@@ -5,8 +5,8 @@ const Project = () => {
     return(
 <Row className="d-flex mt-5 pb-5">
           <h1 className="text-center mb-4">PROJECT</h1>
-          <Col className="d-flex flex-column justify-content-center boxStyle">
-            <h2>Prestito Illuminato</h2>
+          <Col md={6} xl={4} className="d-flex flex-column justify-content-center boxStyle">
+            <h2 className="my-3 py-md-0">Prestito Illuminato</h2>
             <Link to="https://github.com/Vallerga/Capstone_Project">
               <img
                 className="projectImg"
@@ -15,8 +15,8 @@ const Project = () => {
               />
             </Link>
           </Col>
-          <Col className="d-flex flex-column justify-content-center boxStyle">
-            <h2>Spotify Clone</h2>
+          <Col md={6} xl={4} className="d-flex flex-column justify-content-center boxStyle">
+            <h2 className="my-3 py-md-0">Spotify Clone</h2>
             <Link to="https://github.com/lollomarte/BW2/tree/develop">
               <img
                 className="projectImg"
@@ -25,8 +25,8 @@ const Project = () => {
               />
             </Link>
           </Col>
-          <Col className="d-flex flex-column justify-content-center boxStyle">
-            <h2>SkillYouNeed</h2>
+          <Col md={6} xl={4} className="d-flex flex-column justify-content-center boxStyle">
+            <h2 className="my-3 py-md-0">SkillYouNeed</h2>
             <Link to="https://github.com/Vallerga/U2-W2-D5">
               <img
                 className="projectImg"

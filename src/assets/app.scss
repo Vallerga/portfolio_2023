@@ -7,14 +7,26 @@
 // animation
 @import "animation";
 
-//button
+// button
 @import "button";
+
+// theme
+@import "theme";
+
+// navBar
+@import "navbar";
+// navBar
+@import "footer";
 
 body {
   padding: 0;
   margin: 0;
   background: $BGColor1;
   color: $BGColor2;
+}
+
+.pagePadding {
+  padding: 0 15%;
 }
 
 .nameTitle {
@@ -32,6 +44,63 @@ body {
 
 .skillSpace {
   width: 100px;
+}
+@media screen and (min-width: 1199px) and (max-width: 1450px) {
+  .nameTitleFont {
+    font-size: 2.2rem;
+  }
+  svg text {
+    font-size: 30px;
+  }
+
+  .pagePadding {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .myImage {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1000px) {
+  .nameTitleFont {
+    font-size: 2.2rem;
+  }
+  svg text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .nameTitleFont {
+    font-size: 2rem;
+  }
+  svg text {
+    font-size: 25px;
+  }
+  .myImage {
+    width: 150px;
+    margin: 100px 0 50px;
+  }
+
+  .wrapper {
+    margin-bottom: -100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nameTitleFont {
+    font-size: 1.3rem;
+  }
+  svg text {
+    font-size: 18px;
+  }
+
+  .myImage {
+    width: 150px;
+  }
 }
 
 .skillSpace:hover {
@@ -69,60 +138,13 @@ body {
   width: 100%;
   border-radius: 8px;
 }
-.navLogoBox {
-  width: 75px;
-  margin: 25px 0 0 25px;
-}
 
-.navLogo {
-  width: 100%;
-}
-
-.navIcon {
-  font-size: 40px;
-  margin-top: -10px;
-}
-
-.themeIcon {
-  font-size: 40px;
-  margin-top: -10px;
-  margin-right: 25px;
-}
-
-.themeIcon:hover {
-  scale:1.1;
-}
-
-.footBar {
-  font-size: 40px;
-  background: black;
-  border-top: $BGColor3 solid 2px;
-}
-
-.footBar2 {
-  font-size: 40px;
-  background: #000000;
-  border-top: $redDanger solid 2px;
-}
-
-.footIcon {
-  color: $BGColor3;
-}
-
-.footIcon2 {
-  color: $redDanger;
-}
-
-.color2:hover {
-  scale: 1.1;
+.boxDim {
+  width: 200px;
 }
 
 .boxStyle:hover {
   scale: 1.1;
-}
-
-.github {
-  font-size: 50px;
 }
 
 .formInput {
@@ -165,9 +187,4 @@ body {
 .formInput2::placeholder {
   opacity: 0.8;
   color: $LGColor2;
-}
-
-.lightTheme {
-  color: $LGColor2dark !important;
-  background: $LGColor1 !important;
 }

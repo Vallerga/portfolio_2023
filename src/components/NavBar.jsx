@@ -1,5 +1,5 @@
 import { AiFillGithub } from "react-icons/ai";
-import { BsFacebook, BsLinkedin, BsFillLightbulbFill } from "react-icons/bs";
+import { BsFacebook, BsLinkedin, BsFillSunFill } from "react-icons/bs";
 import { MdDarkMode } from "react-icons/md";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
@@ -16,7 +16,7 @@ const NavBar = () => {
   let ColorCss1 = "d-flex justify-content-between align-items-center";
   let ColorCss2 = "color2 me-3";
   let ColorCss2b = "color2 github me-3";
-  let CVButton = "CVButtonDark";
+  let CVButton = "CVButtonDark d-none d-sm-block";
   let navLogo = "Portfolio_Logo_slim.png";
 
   // const themeSetter = () => {
@@ -24,13 +24,13 @@ const NavBar = () => {
     ColorCss1 = "d-flex justify-content-between align-items-center";
     ColorCss2 = "color2 me-3";
     ColorCss2b = "color2 github me-3";
-    CVButton = "CVButtonDark";
+    CVButton = "CVButtonDark d-none d-sm-block";
     navLogo = "Portfolio_Logo_slim.png";
   } else if (theme === false) {
     ColorCss1 = "d-flex justify-content-between align-items-center lightTheme";
     ColorCss2 = "color2 me-3 lightTheme";
     ColorCss2b = "color2 github me-3 lightTheme";
-    CVButton = "CVButtonLight";
+    CVButton = "CVButtonLight d-none d-sm-block";
     navLogo = "Portfolio_Logo_Slim_LightTheme.png";
   }
 
@@ -81,8 +81,8 @@ const NavBar = () => {
             //themeSetter();
           }}
         >
-        {theme && <BsFillLightbulbFill />}
-        {theme || <MdDarkMode />}
+        {theme && <MdDarkMode />}
+        {theme || <BsFillSunFill />}
         </div>
       </div>
     </>

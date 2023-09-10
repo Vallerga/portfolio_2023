@@ -1,0 +1,41 @@
+.color2:hover {
+  scale: 1.1;
+}
+
+.github {
+  font-size: 50px;
+}
+
+.navLogoBox {
+  width: 75px;
+  margin: 25px 0 0 25px;
+}
+
+.navLogo {
+  width: 100%;
+}
+
+.navIcon {
+  font-size: 40px;
+  margin-top: -10px;
+}
+
+@media screen and (max-width: 600px) {
+  .navLogoBox {
+    width: 40px;
+    margin: 40px 0 0 25px;
+  }
+  .navIcon {
+    font-size: 25px;
+    margin: 35px 0 35px 20px;
+
+  }
+
+  .github {
+    font-size: 33px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+}
