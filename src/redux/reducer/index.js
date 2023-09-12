@@ -1,7 +1,9 @@
 import { THEME_SET } from "../action";
+import { LANGUAGE_SET } from "../action";
 
 const initialState = {
   theme: true,
+  language: "en",
 };
 
 const mainReducer = (state = initialState, action) => {
@@ -10,6 +12,11 @@ const mainReducer = (state = initialState, action) => {
       return {
         ...state,
         theme: action.payload,
+      };
+    case LANGUAGE_SET:
+      return {
+        ...state,
+        language: action.payload,
       };
     default:
       return state;

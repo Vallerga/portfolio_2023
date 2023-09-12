@@ -7,6 +7,9 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   const theme = useSelector((state) => state.mainReducer.theme);
+  const language = useSelector((state) => state.mainReducer.language);
+  
+  // Theme code
   let cssHome = "pagePadding";
   let CVButton = "CVButtonDark d-sm-none";
 
@@ -16,6 +19,15 @@ const Home = () => {
   } else if (theme === false) {
     cssHome = "pagePadding lightTheme";
     CVButton = "CVButtonLight d-sm-none";
+  }
+
+  // Language code
+  let text1 = "HELLO! I'M ANTONIO VALLERGA!"
+
+  if (language === "en") {
+    text1 = "HELLO! I'M ANTONIO VALLERGA!";
+  } else if (language === "it") {
+    text1 = "CIAO! SONO ANTONIO VALLERGA!"
   }
 
   return (
@@ -36,9 +48,7 @@ const Home = () => {
           </Col>
           <Col className="d-none d-md-block" xl={8}>
             <div className="d-flex flex-column align-items-center">
-              <h1 className="nameTitle nameTitleFont">
-                HELLO! I'M ANTONIO VALLERGA!
-              </h1>
+              <h1 className="nameTitle nameTitleFont">{text1}</h1>
               <div style={{ width: "50vw" }}></div>
               <div className="wrapper align-self-stretch">
                 <svg>
@@ -49,7 +59,7 @@ const Home = () => {
               </div>
             </div>
           </Col>
-          <Col className="d-md-none" xl={8}>
+          <Col className="d-md-none" xl={12}>
             <div className="d-flex flex-column align-items-center">
               <Link
                 className="align-self-center text-decoration-none"
@@ -57,8 +67,7 @@ const Home = () => {
               >
                 <p className={CVButton}>Curriculum Vitae</p>
               </Link>
-              <h2 className="mt-4 nameTitleFont">HELLO! I'M </h2>
-              <h2 className="nameTitleFont">ANTONIO VALLERGA!</h2>
+              <h2 className="mb-4 nameTitleFont">{text1}</h2>
               <div style={{ width: "80vw" }}></div>
               <div className="wrapper">
                 <svg>

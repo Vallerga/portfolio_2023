@@ -3,6 +3,33 @@ import { useSelector } from "react-redux";
 
 const Skills = () => {
   const theme = useSelector((state) => state.mainReducer.theme);
+  const language = useSelector((state) => state.mainReducer.language);
+
+  // language switch code
+  let Text1It = "text-center mb-4";
+  let Text2It = "text-center w-75";
+  let Text1En = "text-center mb-4";
+  let Text2En = "text-center w-75";
+  let title1 = "ABOUT";
+  let title2 = "SKILLS";
+
+  if (language === "en") {
+    Text1It = "text-center mb-4 d-none";
+    Text2It = "text-center w-75 d-none";
+    Text1En = "text-center mb-4";
+    Text2En = "text-center w-75";
+    title1 = "ABOUT";
+    title2 = "SKILLS";
+  } else if (language === "it") {
+    Text1It = "text-center mb-4";
+    Text2It = "text-center w-75";
+    Text1En = "text-center mb-4 d-none";
+    Text2En = "text-center w-75 d-none";
+    title1 = "SU DI ME";
+    title2 = "COMPETENZE";
+  }
+
+  // theme switch code
   let cssSkill = "skillSpace skillText d-flex flex-column align-items-center";
 
   if (theme === true) {
@@ -15,8 +42,18 @@ const Skills = () => {
     <>
       <Row>
         <Col className="d-xl-none">
-          <h1 className="d-none d-xl-block text-center">ABOUT</h1>
-          <p className="text-center mb-4">
+          <h1 className="d-xl-none text-center">{title1}</h1>
+          <p className={Text1It}>
+            Sono uno sviluppatore web che studia Informatica da quasi due anni.
+            <br />
+            Mi contraddistingue il lavoro di squadra, la risoluzione dei
+            problemi
+            <br />e oltre 10 anni di esperienza a contatto con il pubblico. Sono{" "}
+            <br />
+            interessato a posizioni Front-End e Back-End e disponibile al
+            trasferimento in tutta EU.
+          </p>
+          <p className={Text1En}>
             I am a Junior Web Developer who has been studying Computer Science
             for over a year. <br /> My other skills include over 10 years of
             experience in customer-service, team-working, problem-solving.
@@ -28,19 +65,29 @@ const Skills = () => {
       </Row>
       <Row>
         <Col className="d-flex justify-content-around">
-          <h1 className="d-none d-xl-block text-center">ABOUT</h1>
-          <h1 className="text-center">SKILL</h1>
+          <h1 className="d-none d-xl-block text-center">{title1}</h1>
+          <h1 className="text-center">{title2}</h1>
         </Col>
       </Row>
       <Row className="d-flex">
         <Col className="d-none d-xl-flex flex-column align-items-center">
-          <p className="text-center w-75">
+          <p className={Text2En}>
             I am a Junior Web Developer who has been studying Computer Science
             for over a year. <br /> My other skills include over 10 years of
             experience in customer-service, team-working, problem-solving.
             <br /> I am interested in both Front-End and Back-End positions, and
             I am willing to relocate for the right opportunity anywhere whithin
             the EU.
+          </p>
+          <p className={Text2It}>
+            Sono uno sviluppatore web che studia Informatica da quasi due anni.
+            <br />
+            Mi contraddistingue il lavoro di squadra, la risoluzione dei
+            problemi
+            <br />e oltre 10 anni di esperienza a contatto con il pubblico. Sono{" "}
+            <br />
+            interessato a posizioni Front-End e Back-End e disponibile al
+            trasferimento in tutta EU.
           </p>
         </Col>
         <Col>
