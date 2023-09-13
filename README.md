@@ -1,8 +1,4 @@
-Per accedere al Portafoglio potete liberamente consultare: [Portafoglio Vallerga Antonio](https://portfolio-vallerga.vercel.app/)
-
-👨‍💻 To access the full Portfolio visit: https://lnkd.in/d-7FEP5k
-
-😼 My GIT Repository: https://lnkd.in/dvNx-Jpd
+👨‍💻 To access the full Portfolio visit [here](https://lnkd.in/d-7FEP5k)
 
 I am excited to present the first version of my Digital Project Portfolio. In addition to showcasing my past, current, and future projects, it will enable me to develop and test new solutions and technologies.
 
@@ -30,9 +26,7 @@ Technologies used:
 
 __________________________________________________________________
 
-👨‍💻 Per accedere al Portafoglio potete consultare: https://lnkd.in/d-7FEP5k
-
-😼 La repository GIT è liberamente consultabile presso: https://lnkd.in/dvNx-Jpd
+👨‍💻 Il Portafoglio è visitabile [qua](https://lnkd.in/d-7FEP5k)
 
 Sono entusiasta di presentarvi la prima versione del mio Portafoglio di progetti digitali. Oltre a permettermi di mostrare i miei progetti passati presenti e futuri, mi permetterà di sviluppare e testare nuove soluzioni e tecnologie.
 
