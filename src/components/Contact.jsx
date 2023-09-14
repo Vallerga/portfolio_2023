@@ -7,20 +7,29 @@ const Contact = () => {
   // language switch code
   let title = "Please Contact me:";
   let name = "Name";
+  let placeName = "Digit a name";
   let mail = "Mail";
+  let placeMail = "Digit a mail";
   let message = "Message";
+  let placeMessage = "Digit a message";
   let send = "Send"
   if (language === "en") {
     title = "Please Contact me:"
-    name = "Name";
-    mail = "Mail";
-    message = "Message";
+    name = "Name:";
+    placeName = "Digit a name";
+    mail = "Mail:";
+    placeMail = "Digit a mail";
+    message = "Message:";
+    placeMessage = "Digit a message";
     send = "Send"
   } else if (language === "it") {
     title = "Potete contattarmi:"
-    name = "Nome";
-    mail = "Email";
-    message = "Messaggio";
+    name = "Nome:";
+    placeName = "Inserisci il nome";
+    mail = "Email:";
+    placeMail = "Inserisci la email";
+    message = "Messaggio:";
+    placeMessage = "Inserisci un messaggio";
     send = "Invia"
   }
 
@@ -36,29 +45,30 @@ const Contact = () => {
     buttonForm = "ContactButton2"
   }
 
-  return (
+  return (    
     <form
-      className="d-none d-flex flex-column align-items-center">
+      className="d-flex flex-column align-items-center" id="contact-form">
       <h2>{title}</h2>
+      <input type="hidden" name="contact_number" />
       <div className="d-flex flex-column align-items-start">
         <label className="fs-5 ms-3 mb-2" htmlFor="Name">
           {name}
         </label>
-        <input type="text" placeholder="Your Name" name="UserName" id="Name" className={cssForm} />
+        <input type="text" placeholder={placeName} name="user_name" id="Name" className={cssForm} />
       </div>
       <div className="d-flex flex-column align-items-start">
         <label className="fs-5 ms-3 mb-2" htmlFor="mail">
           {mail}
         </label>
-        <input type="email" placeholder="Your Email" name="User_Email"  id="mail" className={cssForm} />
+        <input type="email" placeholder={placeMail} name="user_email"  id="mail" className={cssForm} />
       </div>
       <div className="d-flex flex-column align-items-start">
         <label className="fs-5 ms-3 mb-2" htmlFor="msg">
           {message}
         </label>
-        <textarea placeholder="Message" name="User_Message"  id="msg" className={cssForm} rows="6" />
+        <textarea placeholder={placeMessage} name="message"  id="msg" className={cssForm} rows="6" />
       </div>
-      <button className={buttonForm} type="submit">
+      <button className={buttonForm} type="submit" value="Send">
         <p>{send}</p>
       </button>
     </form>
@@ -66,3 +76,14 @@ const Contact = () => {
 };
 
 export default Contact;
+
+    <form id="contact-form">
+        <input type="hidden" name="contact_number"></input>
+        <label>Name</label>
+        <input type="text" name="user_name"></input>
+        <label>Email</label>
+        <input type="email" name="user_email"></input>
+        <label>Message</label>
+        <textarea name="message"></textarea>
+        <input type="submit" value="Send"></input>
+    </form>
