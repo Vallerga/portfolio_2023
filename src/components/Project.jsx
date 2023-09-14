@@ -14,7 +14,7 @@ const Project = () => {
   }
   return (
     <Row className="d-flex mt-5 pb-5">
-      <h1 className="text-center mb-4">{title}</h1>
+      <h1 className="text-center py-0 mb-0 mb-md-4">{title}</h1>
       <Col
         md={6}
         xl={4}
