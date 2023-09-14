@@ -21,7 +21,7 @@ const Project = () => {
         className="d-flex flex-column justify-content-center boxStyle"
       >
         <h2 className="my-3 py-md-0">Prestito Illuminato</h2>
-        <Link to="https://github.com/Vallerga/Capstone_Project">
+        <Link target="_blank" rel="noreferrer" to="https://github.com/Vallerga/Capstone_Project">
           <img
             className="projectImg"
             src={require("../assets/images/Capstone.jpg")}
@@ -35,7 +35,7 @@ const Project = () => {
         className="d-flex flex-column justify-content-center boxStyle"
       >
         <h2 className="my-3 py-md-0">Spotify Clone</h2>
-        <Link to="https://github.com/lollomarte/BW2/tree/develop">
+        <Link target="_blank" rel="noreferrer" to="https://github.com/lollomarte/BW2/tree/develop">
           <img
             className="projectImg"
             src={require("../assets/images/Spotify Clone.jpg")}
@@ -49,7 +49,7 @@ const Project = () => {
         className="d-flex flex-column justify-content-center boxStyle"
       >
         <h2 className="my-3 py-md-0">SkillYouNeed</h2>
-        <Link to="https://github.com/Vallerga/U2-W2-D5">
+        <Link target="_blank" rel="noreferrer" to="https://github.com/Vallerga/U2-W2-D5">
           <img
             className="projectImg"
             src={require("../assets/images/SkillYouNeed.jpg")}

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   const theme = useSelector((state) => state.mainReducer.theme);
   const language = useSelector((state) => state.mainReducer.language);
-  
+
   // Theme code
   let cssHome = "pagePadding";
   let CVButton = "CVButtonDark d-sm-none";
@@ -22,12 +22,12 @@ const Home = () => {
   }
 
   // Language code
-  let text1 = "HELLO! I'M ANTONIO VALLERGA!"
+  let text1 = "HELLO! I'M ANTONIO VALLERGA!";
 
   if (language === "en") {
     text1 = "HELLO! I'M ANTONIO VALLERGA!";
   } else if (language === "it") {
-    text1 = "CIAO! SONO ANTONIO VALLERGA!"
+    text1 = "CIAO! SONO ANTONIO VALLERGA!";
   }
 
   return (
@@ -62,6 +62,8 @@ const Home = () => {
           <Col className="d-md-none" xl={12}>
             <div className="d-flex flex-column align-items-center">
               <Link
+                target="_blank"
+                rel="noreferrer"
                 className="align-self-center text-decoration-none"
                 to="https://1drv.ms/b/s!AuK5vWX_9zHzva04pa7bNGs6vlkUpQ?e=xs0DtY"
               >
@@ -86,7 +88,7 @@ const Home = () => {
             </div>
           </Col>
         </Row>
-        
+
         <Skills />
         <Project />
         <Contact />
