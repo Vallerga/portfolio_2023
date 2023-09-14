@@ -76,14 +76,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-    <form id="contact-form">
-        <input type="hidden" name="contact_number"></input>
-        <label>Name</label>
-        <input type="text" name="user_name"></input>
-        <label>Email</label>
-        <input type="email" name="user_email"></input>
-        <label>Message</label>
-        <textarea name="message"></textarea>
-        <input type="submit" value="Send"></input>
-    </form>
