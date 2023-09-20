@@ -2,7 +2,7 @@ import { THEME_SET } from "../action";
 import { LANGUAGE_SET } from "../action";
 
 const initialState = {
-  theme: true,
+  theme: false,
   language: "en",
 };
 
