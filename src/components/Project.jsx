@@ -35,7 +35,7 @@ const Project = () => {
         className="d-flex flex-column justify-content-center boxStyle"
       >
         <h2 className="my-3 py-md-0">Spotify Clone</h2>
-        <Link target="_blank" rel="noreferrer" to="https://github.com/lollomarte/BW2/tree/develop">
+        <Link target="_blank" rel="noreferrer" to="https://github.com/Vallerga/Spotify_clone_BW2">
           <img
             className="projectImg"
             src={require("../assets/images/Spotify Clone.jpg")}
