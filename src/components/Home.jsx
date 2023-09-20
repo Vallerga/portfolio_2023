@@ -53,7 +53,7 @@ const Home = () => {
               <div className="wrapper align-self-stretch">
                 <svg>
                   <text x="50%" y="20%" dy=".35em" textAnchor="middle">
-                    JUNIOR FULL-STACK DEVELOPER
+                    FULL-STACK DEVELOPER
                   </text>
                 </svg>
               </div>
@@ -74,7 +74,7 @@ const Home = () => {
               <div className="wrapper">
                 <svg>
                   <text x="50%" y="10%" dy=".35em" textAnchor="middle">
-                    JUNIOR FULL-STACK
+                    FULL-STACK
                   </text>
                 </svg>
               </div>
