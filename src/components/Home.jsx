@@ -81,7 +81,7 @@ const Home = () => {
               <div className="wrapper">
                 <svg>
                   <text x="50%" y="10%" dy=".35em" textAnchor="middle">
-                    WEB DEVELOPER
+                    DEVELOPER
                   </text>
                 </svg>
               </div>
