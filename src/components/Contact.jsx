@@ -51,19 +51,19 @@ const Contact = () => {
       <h2>{title}</h2>
       <input type="hidden" name="contact_number" />
       <div className="d-flex flex-column align-items-start">
-        <label className="fs-5 ms-3 mb-2" htmlFor="Name">
+        <label className="fotmLabel ms-3 mb-2" htmlFor="Name">
           {name}
         </label>
         <input type="text" placeholder={placeName} name="user_name" id="Name" className={cssForm} />
       </div>
       <div className="d-flex flex-column align-items-start">
-        <label className="fs-5 ms-3 mb-2" htmlFor="mail">
+        <label className="fotmLabel ms-3 mb-2" htmlFor="mail">
           {mail}
         </label>
         <input type="email" placeholder={placeMail} name="user_email"  id="mail" className={cssForm} />
       </div>
       <div className="d-flex flex-column align-items-start">
-        <label className="fs-5 ms-3 mb-2" htmlFor="msg">
+        <label className="fotmLabel ms-3 mb-2" htmlFor="msg">
           {message}
         </label>
         <textarea placeholder={placeMessage} name="message"  id="msg" className={cssForm} rows="6" />

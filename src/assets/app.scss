@@ -150,6 +150,11 @@ body {
   scale: 1.1;
 }
 
+.fotmLabel {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
 .formInput {
   width: 600px;
   font-size: 18px;
@@ -189,7 +194,7 @@ body {
 
 .formInput2::placeholder {
   opacity: 0.8;
-  color: $LGColor2;
+  color: $LGColor2dark;
 }
 
 @media screen and (max-width: 770px) {
