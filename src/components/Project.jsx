@@ -89,26 +89,6 @@ const Project = () => {
           </Link>
         </Col>
        </Row>
-      {/*<Row className="d-flex justify-content-center pb-5">
-        <Col
-          md={6}
-          xl={4}
-          className="d-flex flex-column justify-content-center boxStyle"
-        >
-          <h2 className="my-3 py-md-0">Player Multimediale</h2>
-          <Link
-            target="_blank"
-            rel="noreferrer"
-            to="https://github.com/Vallerga/u4-w1-d5-java"
-          >
-            <img
-              className="projectImg"
-              src={require("../assets/images/Player_Multimediale.png")}
-              alt="Player Multimediale"
-            />
-          </Link>
-        </Col>
-      </Row> */}
     </>
   );
 };
