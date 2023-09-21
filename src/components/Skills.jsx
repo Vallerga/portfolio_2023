@@ -44,18 +44,18 @@ const Skills = () => {
         <Col className="d-xl-none">
           <h1 className="d-xl-none text-center">{title1}</h1>
           <p className={Text1It}>
-            Sono uno sviluppatore web che studia Informatica da quasi due anni.
+            Sono uno sviluppatore Full-Stack che studia Informatica da due anni.
             <br />
             Mi contraddistingue il lavoro di squadra, la risoluzione dei
             problemi
-            <br />e oltre 10 anni di esperienza a contatto con il pubblico. Sono{" "}
+            <br />e oltre 10 anni di esperienza a contatto con il pubblico. Sono
             <br />
             interessato a posizioni Front-End e Back-End e disponibile al
             trasferimento in tutta EU.
           </p>
           <p className={Text1En}>
-            I am a Junior Web Developer who has been studying Computer Science
-            for over a year. <br /> My other skills include over 10 years of
+            I am a Full-Stack Developer who has been studying Computer Science
+            for the last 2 year. <br /> My other skills include over 10 years of
             experience in customer-service, team-working, problem-solving.
             <br /> I am interested in both Front-End and Back-End positions, and
             I am willing to relocate for the right opportunity anywhere whithin
@@ -72,19 +72,19 @@ const Skills = () => {
       <Row className="d-flex">
         <Col className="d-none d-xl-flex flex-column align-items-center">
           <p className={Text2En}>
-            I am a Junior Web Developer who has been studying Computer Science
-            for over a year. <br /> My other skills include over 10 years of
+            I am a Full-Stack Developer who has been studying Computer Science
+            for the last 2 year. <br /> My other skills include over 10 years of
             experience in customer-service, team-working, problem-solving.
             <br /> I am interested in both Front-End and Back-End positions, and
             I am willing to relocate for the right opportunity anywhere whithin
             the EU.
           </p>
           <p className={Text2It}>
-            Sono uno sviluppatore web che studia Informatica da quasi due anni.
+            Sono uno sviluppatore Full-Stack che studia Informatica da due anni.
             <br />
             Mi contraddistingue il lavoro di squadra, la risoluzione dei
             problemi
-            <br />e oltre 10 anni di esperienza a contatto con il pubblico. Sono{" "}
+            <br />e oltre 10 anni di esperienza a contatto con il pubblico. Sono
             <br />
             interessato a posizioni Front-End e Back-End e disponibile al
             trasferimento in tutta EU.
