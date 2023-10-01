@@ -62,25 +62,37 @@ const NavBar = () => {
             />
           </div>
           <Link
-          target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
             className="align-self-stretch text-decoration-none"
             to="https://1drv.ms/b/s!AuK5vWX_9zHzva04pa7bNGs6vlkUpQ?e=xs0DtY"
           >
             <p className={CVButton}>Curriculum Vitae</p>
           </Link>
           <div className="navIcon d-flex align-items-center">
-            <Link target="_blank" rel="noreferrer" className={ColorCss2b} to="https://github.com/Vallerga">
+            <Link
+              target="_blank"
+              rel="noreferrer"
+              className={ColorCss2b}
+              to="https://github.com/Vallerga"
+            >
               <AiFillGithub />
             </Link>
             <Link
-            target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               className={ColorCss2}
               to="https://www.facebook.com/profile.php?id=100004782134748"
             >
               <BsFacebook />
             </Link>
 
-            <Link target="_blank" rel="noreferrer" className={ColorCss2} to="https://github.com/Vallerga">
+            <Link
+              target="_blank"
+              rel="noreferrer"
+              className={ColorCss2}
+              to="https://www.linkedin.com/in/antonio-vallerga-2612a468/"
+            >
               <BsLinkedin />
             </Link>
           </div>

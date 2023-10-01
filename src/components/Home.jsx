@@ -33,7 +33,7 @@ const Home = () => {
   return (
     <>
       <Container fluid className={cssHome}>
-        <Row>
+        <Row className="d-flex align-items-center">
           <Col
             xl={4}
             className="d-flex align-items-center justify-content-evenly"

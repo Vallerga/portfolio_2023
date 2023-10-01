@@ -34,6 +34,7 @@ body {
 }
 
 .myImage {
+  margin: 50px 0;
   width: 200px;
   aspect-ratio: 1/1;
   object-fit: cover;
@@ -56,11 +57,20 @@ body {
   .pagePadding {
     padding: 0 5%;
   }
+
+  .nameTitle {
+    margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   .myImage {
-    margin: 100px;
+    margin: 50px 100px;
+  }
+
+  .nameTitle {
+    margin: 0px;
+    padding: 0px;
   }
 }
 
@@ -77,14 +87,14 @@ body {
   .nameTitleFont {
     font-size: 2rem;
   }
-  
+
   svg text {
     font-size: 25px;
   }
 
   .myImage {
     width: 150px;
-    margin: 30px 0 0px;
+    margin: 50px 0;
   }
 
   .wrapper {
@@ -198,44 +208,44 @@ body {
 }
 
 @media screen and (max-width: 770px) {
-  .formInput{
-    width:400px;
+  .formInput {
+    width: 400px;
     font-size: 15px;
   }
 
-  .formInput2{
-    width:400px;
+  .formInput2 {
+    width: 400px;
     font-size: 15px;
   }
 
-  .skillIcon{
-    width:40px;
+  .skillIcon {
+    width: 40px;
   }
 
   .skillText {
     font-size: 0.7rem;
   }
-  
+
   .skillText2 {
     font-size: 0.7rem;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .formInput{
-    width:250px;
+  .formInput {
+    width: 250px;
     font-size: 15px;
   }
 
-  .formInput2{
-    width:250px;
+  .formInput2 {
+    width: 250px;
     font-size: 15px;
   }
 
   .skillText {
     font-size: 0.6rem;
   }
-  
+
   .skillText2 {
     font-size: 0.6rem;
   }
