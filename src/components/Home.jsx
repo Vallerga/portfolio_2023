@@ -65,7 +65,7 @@ const Home = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="align-self-center text-decoration-none"
-                to="https://1drv.ms/b/s!AuK5vWX_9zHzva1J0926sLLiIwTC0Q?e=lEsNSz"
+                to="https://1drv.ms/b/s!AuK5vWX_9zHzva1J0926sLLiIwTC0Q?e=hy38wg"
               >
                 <p className={CVButton}>Curriculum Vitae</p>
               </Link>
