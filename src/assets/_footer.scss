@@ -13,6 +13,10 @@
   .footIcon {
     color: $BGColor3;
   }
+
+  .footIcon:hover {
+    color: $BGColor3light;
+  }
   
   .footIcon2 {
     color: $redDanger;
