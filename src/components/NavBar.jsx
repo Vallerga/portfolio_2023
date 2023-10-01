@@ -65,7 +65,7 @@ const NavBar = () => {
             target="_blank"
             rel="noreferrer"
             className="align-self-stretch text-decoration-none"
-            to="https://1drv.ms/b/s!AuK5vWX_9zHzva04pa7bNGs6vlkUpQ?e=xs0DtY"
+            to="https://1drv.ms/b/s!AuK5vWX_9zHzva1J0926sLLiIwTC0Q?e=lEsNSz"
           >
             <p className={CVButton}>Curriculum Vitae</p>
           </Link>
